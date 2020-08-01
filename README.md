@@ -1,5 +1,6 @@
 # BenkyoC
 
+
     勉強しぃ
 
 `C++` is co cool.
