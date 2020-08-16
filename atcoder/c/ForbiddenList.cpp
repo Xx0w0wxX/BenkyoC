@@ -32,6 +32,9 @@ int main()
                 // in left
                 lcounter++;
                 continue;
+            } else {
+                cout << x-lcounter << "\n";
+                return 0;
             }
         } else {
             // not in right
@@ -40,6 +43,7 @@ int main()
                 cout << x+rcounter << "\n";
                 return 0;
             } else {
+                // not in left
                 cout << x-lcounter << "\n";
                 return 0;
             }
