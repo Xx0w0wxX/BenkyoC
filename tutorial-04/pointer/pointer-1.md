@@ -75,7 +75,7 @@ therefore, it will be 5
 
 - *(a+1)
 
-a stands for the pointer which points to the beginning of the array, a
+a is the pointer which points to the beginning of the array, a
 plus 1 is equal to the pointer of the second element of array, a
 thus, it will be 2
 
