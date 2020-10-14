@@ -63,7 +63,7 @@ int main()
 
 &a is a pointer to an array
 
-cast to int, &a + 1 = a + sizeof(a)  - > out of range
+cast to int, &a + 1 = (char *)a + sizeof(a)  - > out of range
 but it is not a problem cus we do not dereference yet
 
 - *(ptr-1)
